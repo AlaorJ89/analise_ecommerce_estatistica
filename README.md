@@ -73,6 +73,26 @@ Outliers em vendas indicam possíveis promoções ou inconsistências nos dados.
 
 (Substitua pelos seus próprios comentários após analisar os resultados.)
 
+# Aplicação Interativa com Dash 
+Nesta etapa do projeto, criei uma aplicação interativa utilizando a biblioteca Dash. O objetivo é permitir que qualquer usuário visualize os principais gráficos e insights da análise sem precisar executar código Python.
+
+A aplicação inclui:
+
+Visualização de histogramas, gráficos de dispersão, pizza, barras, regressão e densidade
+
+Mapa de calor com correlação entre variáveis
+
+Interface com fundo personalizado via CSS
+
+Para rodar localmente:
+
+bash
+Copy
+Edit
+pip install dash plotly pandas
+python app.py
+O aplicativo será iniciado no navegador padrão, normalmente em http://127.0.0.1:8050/.
+
 Contribuição
 Contribuições são bem-vindas! Abra uma issue ou envie um pull request com melhorias ou novas análises.
 
