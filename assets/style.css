@@ -1,0 +1,16 @@
+body {
+    background-image: url("imagem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Opcional: deixa os gráficos com fundo branco semi-transparente para melhor contraste */
+div.js-plotly-plot {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
